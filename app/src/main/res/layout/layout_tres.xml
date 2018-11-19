@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/numero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:background="#FE9E0D"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
+            android:padding="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Á moda do Freguês"
+            android:textSize="20dp"
+            android:textColor="#FE9E0D"
+            android:paddingLeft="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/numero"/>
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Escolha no máximo 5 ingredientes"
+            android:textColor="#000000"
+            android:paddingLeft="8dp"
+            android:layout_below="@id/titulo"
+            android:layout_toRightOf="@+id/numero"/>
+
+        <View
+            android:id="@+id/linha"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#000000"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@+id/numero"/>
+
+        <TextView
+            android:id="@+id/numero2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:background="#FE9E0D"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
+            android:padding="8dp"
+            android:layout_below="@+id/linha"/>
+
+        <TextView
+            android:id="@+id/titulo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 queijos"
+            android:textSize="20dp"
+            android:textColor="#FE9E0D"
+            android:paddingLeft="8dp"
+            android:layout_below="@id/linha"
+            android:layout_toRightOf="@+id/numero2"/>
+
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Molho, mussarela, parmesão, provolone e catupiry"
+            android:textColor="#000000"
+            android:paddingLeft="8dp"
+            android:layout_below="@id/titulo2"
+            android:layout_toRightOf="@+id/numero2"/>
+
+        <View
+            android:id="@+id/linha2"
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:background="#000000"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@+id/numero2"/>
+
+        <TextView
+            android:id="@+id/numero3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:background="#FE9E0D"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
+            android:padding="8dp"
+            android:layout_below="@+id/linha2"/>
+
+        <TextView
+            android:id="@+id/titulo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 queijos"
+            android:textSize="20dp"
+            android:textColor="#FE9E0D"
+            android:paddingLeft="8dp"
+            android:layout_below="@id/linha2"
+            android:layout_toRightOf="@+id/numero3"/>
+
+        <TextView
+            android:id="@+id/texto3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Molho, mussarela, parmesão, provolone, catupiry e gorgonzola"
+            android:textColor="#000000"
+            android:paddingLeft="8dp"
+            android:layout_below="@id/titulo3"
+            android:layout_toRightOf="@+id/numero3"/>
+
+        <View
+            android:id="@+id/linha3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="257dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/numero4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="232dp"
+            android:background="#FE9E0D"
+            android:padding="8dp"
+            android:text="4"
+            android:textColor="#ffffff"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/titulo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="234dp"
+            android:layout_toRightOf="@+id/numero"
+            android:paddingLeft="8dp"
+            android:text="6 queijos"
+            android:textColor="#FE9E0D"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/texto4"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="258dp"
+            android:layout_toRightOf="@+id/numero"
+            android:paddingLeft="8dp"
+            android:text="Molho, mussarela, parmesão, provolone, gorgonzola, catupiry e cheddar"
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/linha4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="96dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/numero5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="311dp"
+            android:background="#FE9E0D"
+            android:padding="8dp"
+            android:text="5"
+            android:textColor="#ffffff"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/titulo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="313dp"
+            android:layout_toRightOf="@+id/numero"
+            android:paddingLeft="8dp"
+            android:text="6 queijos"
+            android:textColor="#FE9E0D"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/texto5"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="337dp"
+            android:layout_toRightOf="@+id/numero"
+            android:paddingLeft="8dp"
+            android:text="Molho, mussarela, parmesão, provolone, gorgonzola, catupiry e cheddar"
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/linha5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignTop="@+id/linha6"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="-160dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="175dp"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/numero6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="389dp"
+            android:background="#FE9E0D"
+            android:padding="8dp"
+            android:text="6"
+            android:textColor="#ffffff"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/titulo6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="393dp"
+            android:layout_toRightOf="@+id/numero"
+            android:paddingLeft="8dp"
+            android:text="À parmegiana"
+            android:textColor="#FE9E0D"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/texto6"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="419dp"
+            android:layout_toRightOf="@+id/numero"
+            android:paddingLeft="8dp"
+            android:text="Mussarela coberta c/ molho especial e sapicado com parmesão"
+            android:textColor="#000000" />
+
+        <View
+            android:id="@+id/linha6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="241dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="16dp"
+            android:background="#000000" />
+    </RelativeLayout>
+</ScrollView>
